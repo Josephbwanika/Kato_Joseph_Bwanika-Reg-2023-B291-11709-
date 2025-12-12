@@ -1,6 +1,7 @@
-Kato Joseph Bwanika – Final Project Test
-REG:2023-B291-11709
-Dataset Description
+**Kato Joseph Bwanika** 
+**REG:2023-B291-11709**
+** Final Project Test **
+**Dataset Description**
 The dataset (from a ZIP archive) includes:
 
 Train.csv – 23,524 rows, 13 features (incl. target: bankaccount)
@@ -9,9 +10,8 @@ Test.csv – 10,086 rows, 12 features for prediction
 
 SampleSubmission.csv – Format for model output (33,610 rows)
 
-VariableDefinitions.csv – Descriptions for 12 demographic and socioeconomic variables (e.g., country, year, locationtype, cellphoneaccess, educationlevel, jobtype, etc.)
 
-Methodology
+**Methodology**
 The notebook uses pandas, matplotlib, seaborn and follows:
 
 Data Ingestion: Automatic extraction and loading of all CSV files.
@@ -22,13 +22,5 @@ Data Cleaning: Mean imputation for numeric features and mode imputation for cate
 
 Visualization: Histograms and count plots to explore distributions and relationships.
 
-🔍 Key Findings
-Significant rural vs. urban differences in cellphone access.
-
-Education levels show strong patterns with employment types.
-
-Notable temporal variation across survey years (2016–2018).
-
-These insights set the stage for feature engineering and model building.
-
 Kato Joseph Bwanika Reg:2023-B291-11709
+
